@@ -44,3 +44,8 @@ footer {
 div {
     border: 5px solid white;
 }
+
+a {
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+}
