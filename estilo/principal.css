@@ -75,7 +75,8 @@ article p {
 }
 
 aside {
-    width: 400px;
+    max-width: 400px;
+    min-width: 320px;
     margin: auto;
     margin-top: 10px;
 }
