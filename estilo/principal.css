@@ -15,10 +15,10 @@ div#cabeçalho h1 {
 }
 
 div#banner {
-    height: 100px;
+    height: 130px;
     border: 5px solid blue;
     margin: auto;
-    margin-top: -95px;
+    margin-top: -105px;
     margin-bottom: 0px;
     margin-left: 0px;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.174), black);
@@ -27,18 +27,30 @@ div#banner {
 
 
 header {
-    width: 80px;
+    width: 85px;
+    height: 85px;
+    border: none;
 }
 
 header>a>img {
     display: block;
-    width: 80px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+header>a>img:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.351);
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
 }
 
 nav {
-    background-image: linear-gradient(180deg, rgb(83, 83, 83), black);
+    background-image: linear-gradient(180deg, black, rgb(83, 83, 83));
 }
 
 nav a {
