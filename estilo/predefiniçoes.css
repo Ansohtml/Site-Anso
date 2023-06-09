@@ -20,6 +20,7 @@ nav {
 }
 
 main {
+    background-color: rgba(151, 151, 151, 0.74);
     max-width: 800px;
     min-width: 320px;
     border: 5px solid rgb(0, 0, 0);
