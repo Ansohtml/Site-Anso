@@ -5,22 +5,19 @@ div#cabeçalho {
     width: 100px;
     margin: auto;
     margin-bottom: -55px;
-}
-
-div#cabeçalho h1 {
     color: white;
     font-family: sans-serif;
     text-align: center;
     padding-top: 10px;
 }
 
+
+
 div#banner {
     height: 130px;
     border: 5px solid blue;
     margin: auto;
     margin-top: -105px;
-    margin-bottom: 0px;
-    margin-left: 0px;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.174), black);
 }
 
@@ -47,6 +44,7 @@ header>a>img:hover {
     width: 80px;
     height: 80px;
     margin-left: 5px;
+    transition-duration: 1s;
 }
 
 nav {
