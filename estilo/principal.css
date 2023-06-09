@@ -19,9 +19,7 @@ div#banner {
     border: 5px solid blue;
     margin: auto;
     margin-top: -105px;
-    background-image: url('../imagem/YT-Full-m.jpg');
-    background-position: left top;
-    background-repeat: no-repeat;
+    background: url('../imagem/YT-Full-m.jpg') left top no-repeat;
     background-size: cover;
 }
 
