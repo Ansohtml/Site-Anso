@@ -1,19 +1,6 @@
 @charset "UTF-8";
 
 
-div#cabeçalho {
-    width: 100px;
-    margin: auto;
-    margin-bottom: -55px;
-    color: rgb(219, 219, 219);
-    font-family: sans-serif;
-    text-align: center;
-    padding-top: 10px;
-    text-shadow: 0px 0px 2px black;
-}
-
-
-
 div#banner {
     border: none;
     height: 130px;
@@ -21,7 +8,7 @@ div#banner {
     margin: auto;
     margin-top: -105px;
     background: url('../imagem/YT-Full-m.jpg') left top no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 
@@ -88,6 +75,7 @@ article img {
     width: 100%;
     border-radius: 5px;
     border: none;
+    margin-top: 5px;
 }
 
 article> h1 {
