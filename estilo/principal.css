@@ -27,6 +27,7 @@ header>a>img {
     margin-top: 15px;
     margin-left: 20px;
     margin-bottom: 5px;
+    transition: 1s;
 }
 
 header>a>img:hover {
@@ -51,6 +52,8 @@ nav a {
     text-decoration: none;
     border-radius: 5px;
     border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 nav a:hover {
@@ -115,8 +118,9 @@ aside>ul {
 }
 
 aside span:hover {
-    background-color: aqua;
-    color: rgb(19, 17, 124);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
     transition-duration: 1s;
     border-radius: 5px;
 }
