@@ -7,6 +7,25 @@
     <title>Perfil</title>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/perfil.css">
+    <style>
+        table {
+            background-color: white;
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+
+        td, th, caption {
+            text-align: center;
+            font-family: sans-serif;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        th, caption {
+            background-color: lightgray;
+        }
+    </style>
 </head>
 <body>
 
@@ -22,9 +41,65 @@
     </nav>
 
     <main>
-        
+        <table>
+            <caption>Estatísticas do canal</caption>
+            <thead>
+                <tr>
+                    <th>Vídeos</th>
+                    <th>Duração</th>
+                    <th>Visualizações</th>
+                    <th>Curtidas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Video 1</td>
+                    <td>12:05</td>
+                    <td>21</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Video 2</td>
+                    <td>7:45</td>
+                    <td>5</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Video 3</td>
+                    <td>2:00</td>
+                    <td>7</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Video 4</td>
+                    <td>13:32</td>
+                    <td>5</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
 
     </main>
+
+    <div>
+        <fieldset>
+            <legend>Formulário</legend>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <p>
+                    <label for="iname">Nome: </label>
+                    <input type="text" name="name" id="iname" required autocomplete="name" placeholder="Anderson" size="15" minlength="5" maxlength="15">
+                </p>
+                <p>
+                    <label for="isenha">Senha: </label>
+                    <input type="password" name="senha" id="isenha" required autocomplete="current-password" placeholder="******" size="10" min="5" max="10">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </fieldset>
+    </div>
 
     <footer>
 
