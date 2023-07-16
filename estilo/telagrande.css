@@ -1,13 +1,20 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+
+    div#banner {
+        width: 100%;
+    }
+
     span#burguer {
         display: none;
     }
 
     nav {
+        margin-bottom: -15px;
         display: block;
-        height: 20px;
+        width: 250px;
+        height: 10px;
     }
 
     nav>ul>li {
