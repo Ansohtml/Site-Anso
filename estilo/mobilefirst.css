@@ -43,7 +43,6 @@ div#perfil>img:hover {
 }
 
 header>div#banner {
-    
     height: 200px;
     background: blue url('/imagem/YT-Full-p.jpg') no-repeat;
     background-size: cover;
@@ -51,9 +50,11 @@ header>div#banner {
 
 }
 
+menu#menu {
+    display: block;
+}
 
-ul#menu {
-    
+menu#menu>ul {
     display: flex;
     list-style-type: none;
     margin-top: 200px;
@@ -124,4 +125,8 @@ footer>p>a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+span#bot {
+    cursor: pointer;
 }

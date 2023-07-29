@@ -20,11 +20,13 @@
         <img src="imagem/Logo Anso.jpg" alt="Perfil">
     </div>
 
-    <ul id="menu">
-        <li class="nav">Canal</li>
-        <li class="nav">Redes Sociais</li>
-        <li class="nav">Cursos</li>
-    </ul>
+    <menu id="menu">
+        <ul>
+            <li class="nav">Canal</li>
+            <li class="nav">Redes Sociais</li>
+            <li class="nav">Cursos</li>
+        </ul>
+    </menu>
     <main>
         <section>
             <article>
@@ -38,6 +40,7 @@
             </div>
         </section>
     </main>
+    <span id="bot" onclick="clicarBotao()">botao</span>
     <footer>
         <p>
             Site feito por <a href="#">Anderson</a>.
@@ -45,7 +48,12 @@
     </footer>
 
     <script>
-        
+        function clicarBotao() {
+            if (menu.style.display == 'block'){
+                menu.style.dislay = 'none'
+            }
+            else {menu.style.dislay = 'block'}
+        }
     </script>
 </body>
 </html>
