@@ -1,18 +1,23 @@
+let bota = document.getElementById('bot')
+let men = document.getElementById('menu')
+let ca = document.getElementById('ca')
+let rd = document.getElementById('rd')
+let cr = document.getElementById('cr')
 function clicarBotao(){
-    let bota = document.getElementById('bot')
-    let men = document.getElementById('menu')
-    let ca = document.getElementById('ca')
-    let rd = document.getElementById('rd')
-    let cr = document.getElementById('cr')
-    let nav = document.getElementsByClassName('nav')
     if (men.style.display == 'none'){
         men.style.display = 'flex'
-        men.style.width = '250px'
-        ca.style.width = '100px'
-        rd.style.width = '150px'
-        cr.style.width = '200px'
-        men.style.transition = 'width 0.5s'
+        men.style.transform = 'translateY(10px)'
+        
+        bota.style.rotate = '90deg'
+        bota.style.marginLeft = '0px'
+        bota.style.marginBottom = '0px'
+        bota.style.transition = '0.5s'
     }else if (men.style.display = 'flex'){
         men.style.display = 'none'
+        
+        bota.style.rotate = '0deg'
+        bota.style.marginLeft = '0px'
+        bota.style.marginBottom = '0px'
+        bota.style.transition = '0.5s'
     }
 }

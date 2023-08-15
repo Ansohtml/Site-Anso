@@ -52,9 +52,19 @@ header>div#banner {
 }
 
 div#bot {
+    transform: rotate(90deg);
     cursor: pointer;
     margin-top: 200px;
-    width: 0px;
+    width: 20px;
+    color: white;
+    background-color: rgb(0, 0, 255);
+    border-radius: 3px;
+    text-align: center;
+}
+
+div#bot:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 menu#menu {
@@ -72,7 +82,7 @@ menu#menu>ul {
     list-style-type: none;
     
     background-color: rgb(2, 2, 101);
-    border-radius: 5px 50px 5px 5px;
+    border-radius: 5px;
 }
 
 li.nav {
@@ -101,15 +111,16 @@ li#ca {
     width: 150px;
 }
 
-li#rd {
+li#cr {
     width: 200px;
 }
 
-li#cr {
+li#rd {
     width: 250px;
 }
 
 main {
+    margin-top: 10px;
     padding: 20px;
     min-width: 320px;
     max-width: 768px;
