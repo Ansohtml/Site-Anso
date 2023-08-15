@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/mobilefirst.css">
     <link rel="stylesheet" href="estilo/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <script src="script.js" defer></script>
     <title>Anso</title>
 </head>
 <body>
@@ -19,12 +20,12 @@
     <div id="perfil">
         <img src="imagem/Logo Anso.jpg" alt="Perfil">
     </div>
-
+    <div id="bot"><span onclick="clicarBotao()">|||</span></div>
     <menu id="menu">
         <ul>
-            <li class="nav">Canal</li>
-            <li class="nav">Redes Sociais</li>
-            <li class="nav">Cursos</li>
+            <li class="nav" id="ca">Canal</li>
+            <li class="nav" id="rd">Redes Sociais</li>
+            <li class="nav" id="cr">Cursos</li>
         </ul>
     </menu>
     <main>
@@ -40,20 +41,10 @@
             </div>
         </section>
     </main>
-    <span id="bot" onclick="clicarBotao()">botao</span>
     <footer>
         <p>
             Site feito por <a href="#">Anderson</a>.
         </p>
     </footer>
-
-    <script>
-        function clicarBotao() {
-            if (menu.style.display == 'block'){
-                menu.style.dislay = 'none'
-            }
-            else {menu.style.dislay = 'block'}
-        }
-    </script>
 </body>
 </html>
